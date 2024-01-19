@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*-----------------------Top-Navigation------------------------------------*/
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+    
+}
+
+nav .container ul {
+    display: flex;
+    margin: 1rem 1rem;
+}
+
+nav .container ul .section-a{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+nav .container ul .section-a li{
+    margin: 0rem 4rem;
+}
+
+nav .container ul .section-a form {
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 1.6rem;
+}
+
+nav .container ul .section-a form input{
+    width: 100%;
+    border: none;
+    padding: .5rem 2rem;
+    margin: 0rem .1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}
+
+nav .container ul .section-a form button{
+    width: 50%;
+    border: none;
+    padding: .5rem .5rem;
+    margin: 0rem .1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}
+
+nav .container ul .section-b {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-left:10rem;
+    width: 50%;
+}
+
+nav .container ul .section-b li{
+    margin: 0rem .5rem;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li a{
+    color: black;
+}
+
+/*-----------------------------End-Top-Navigation--------------------------------------------------*/
+/*-----------------------------Start-Side-Navigation-------------------------------------------*/
+
+.side-navigation .content{
+    margin: 0rem 5rem;
+    border: 1px solid black;
+    width: 80%;
+    height: 125vh;
+    border-radius: 0rem 2rem 2rem 0rem;
+    background-color: rgba(63, 82, 158, 100);
+}
+
+.side-navigation .content .dashboard ul li{
+    margin: 2rem 0.5rem;
+    padding: .1rem .5rem;
+    width: 100%;
+    height: 5vh;
+
+ }
+
+.side-navigation .content .dashboard ul li:hover{
+   margin: 2rem 0rem;
+   padding: .1rem .5rem;
+   width: 100%;
+   height: 5vh;
+   border-radius: 2rem 2rem 2rem 2rem;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+}
+
+.side-navigation .content .dashboard ul li a{
+    color: rgb(255, 255, 255);
+    margin: 2rem 0rem;
+    position: relative;
+    top: .5rem;
+ }
+
+ .side-navigation .content .dashboard ul li a:hover{
+    color: rgb(0, 0, 0);
+ }
